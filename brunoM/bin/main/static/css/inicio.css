@@ -1,0 +1,83 @@
+@font-face {
+     font-family: montserrat;
+     src: url('../fonts/Montserrat-Medium.ttf');
+}
+
+body, figure, h1, button, img{
+	margin: 0;
+	padding: 0;
+	font-family: montserrat;
+}
+
+body{
+	background: #fee;
+}
+
+.container{
+	width: 80%;
+	margin: 0 10%;
+}
+
+/*Topo*/
+.bl-topo{
+	width:100%;
+	height:10vh;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.bl-topo-figure{
+	width: 20%;
+	height: 70%;
+	margin: 0 10%;
+}
+
+.bl-topo-figure-img{
+	width: 150px;
+}
+
+/*Corpo*/
+.bl-corpo{
+	width: 100%;
+	height: 90vh;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.bl-corpo h1{
+	color: #9400d3;
+	font-size: 3em;
+}
+
+.bl-corpo button{
+	border-radius: 50px;
+	border: none;
+	padding: 20px 100px;
+	background-image: linear-gradient(to right, #9400d3, #5707C2);
+	color: #fff;
+	font-weight: ;
+	margin: 8% 0 5% 0;
+	cursor: pointer;
+	outline: none	;
+}
+
+/*Imagem de fundo*/
+.bl-img-fundo{
+	width: 700px;
+	height: 65vh;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	opacity: 0.6;
+	z-index: -1;
+}
+
+.bl-img-fundo-figure-img{
+	width: 100%;
+	position: absolute;
+	bottom: 0; 
+}
